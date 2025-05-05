@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;700&family=Space+Grotesk:wght@400;500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 220 30% 94%; /* #eceef3 - incluso más suave, crema azulado */
+  --foreground: 225 35% 15%; /* #1f2638 - azul oscuro casi negro, muy legible */
+  
+  --muted: 215 30% 88%; /* #dce3ed - suave gris azulado */
+  --muted-foreground: 220 20% 30%; /* #434d6a - azul grisáceo oscuro, profesional */
+  
+  --popover: 220 30% 94%;
+  --popover-foreground: 225 35% 15%;
+  
+  --card: 0 0% 100%; /* tarjetas blancas que destacarán con sombras refinadas */
+  --card-foreground: 225 35% 15%;
+  
+  --border: 215 25% 75%; /* #bbc7d7 - bordes suaves pero visibles */
+  --input: 215 25% 75%;
+  
+  --primary: 230 50% 35%; /* #1f3b85 - azul oscuro muy corporativo */
+  --primary-light: 230 30% 65%; /* #8799c5 - azul claro complementario */
+  --primary-foreground: 0 0% 100%; /* blanco puro para contraste en botones */
+  
+  --secondary: 210 50% 30%; /* #1e4b80 - azul oscuro secundario */
+  --secondary-foreground: 0 0% 100%;
+  
+  --accent: 200 70% 40%; /* #1691c4 - azul más oscuro para acentos */
+  --accent-foreground: 225 35% 15%;
+  
+  --destructive: 0 60% 45%; /* rojo más oscuro y profesional */
+  --destructive-foreground: 0 0% 100%;
+  
+  --ring: 230 50% 35%;
+  --radius: 0.5rem;
+}
+
+.dark {
+  --background: 240 10% 3.9%; /* #19171b */
+  --foreground: 210 40% 98%; /* #f3f6f8 */
+  
+  --muted: 240 3.7% 15.9%;
+  --muted-foreground: 240 5% 64.9%;
+  
+  --popover: 240 10% 3.9%;
+  --popover-foreground: 210 40% 98%;
+  
+  --card: 240 10% 3.9%;
+  --card-foreground: 210 40% 98%;
+  
+  --border: 240 3.7% 15.9%;
+  --input: 240 3.7% 15.9%;
+  
+  --primary: 271 59% 51%; /* #8337cf */
+  --primary-light: 283 45% 75%; /* #bb91d1 */
+  --primary-foreground: 210 40% 98%;
+  
+  --secondary: 216 54% 53%; /* #3a7bd5 */
+  --secondary-foreground: 210 40% 98%;
+  
+  --accent: 181 100% 49%; /* #00e8fc */
+  --accent-foreground: 210 40% 98%;
+  
+  --destructive: 0 62.8% 30.6%;
+  --destructive-foreground: 210 40% 98%;
+  
+  --ring: 271 59% 51%;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased font-sans;
+  }
+
+  .font-title {
+    @apply font-['Space_Grotesk',sans-serif] font-bold;
+  }
+
+  .font-body {
+    @apply font-['Inter',sans-serif];
+  }
+
+  .font-mono {
+    @apply font-['JetBrains_Mono',monospace];
+  }
+}
+
+@layer utilities {
+  .blueprint-bg {
+    background-image: radial-gradient(rgba(0, 232, 252, 0.1) 1px, transparent 1px);
+    background-size: 20px 20px;
+    background-position: 0 0;
+  }
+  
+  :root .blueprint-bg {
+    background-image: radial-gradient(rgba(30, 75, 128, 0.12) 1px, transparent 1px);
+    background-size: 20px 20px;
+    background-position: 0 0;
+  }
+  
+  .dark .blueprint-bg {
+    background-image: radial-gradient(rgba(0, 232, 252, 0.1) 1px, transparent 1px);
+    background-size: 20px 20px;
+    background-position: 0 0;
+  }
+
+  .glass-card {
+    @apply bg-primary/10 backdrop-blur-md border border-white/5 shadow-lg;
+  }
+  
+  :root .glass-card {
+    @apply bg-white/70 backdrop-blur-md border border-[#c8d1e0] shadow-lg;
+    box-shadow: 0 4px 20px rgba(100, 110, 140, 0.1), 0 8px 16px rgba(200, 209, 224, 0.25);
+  }
+  
+  .dark .glass-card {
+    @apply bg-primary/10 backdrop-blur-md border border-white/5 shadow-lg;
+  }
+
+  .neumorph {
+    @apply shadow-[5px_5px_10px_rgba(0,0,0,0.3),-5px_-5px_10px_rgba(255,255,255,0.05)];
+  }
+  
+  :root .neumorph {
+    box-shadow: 6px 6px 10px rgba(158, 178, 203, 0.25), -6px -6px 10px rgba(255, 255, 255, 0.7), inset 1px 1px 1px rgba(255, 255, 255, 0.8), inset -1px -1px 1px rgba(158, 178, 203, 0.1);
+  }
+  
+  .dark .neumorph {
+    @apply shadow-[5px_5px_10px_rgba(0,0,0,0.3),-5px_-5px_10px_rgba(255,255,255,0.05)];
+  }
+
+  .bg-gradient-primary {
+    @apply bg-gradient-to-r from-[#bb91d1] to-[#3a7bd5];
+  }
+  
+  :root .bg-gradient-primary {
+    @apply bg-gradient-to-r from-[#1f3b85] to-[#1691c4];
+  }
+  
+  .dark .bg-gradient-primary {
+    @apply bg-gradient-to-r from-[#bb91d1] to-[#3a7bd5];
+  }
+
+  .navbar-fixed {
+    @apply bg-background/80 backdrop-blur-md shadow-md;
+  }
+  
+  :root .navbar-fixed {
+    @apply bg-white/90 backdrop-blur-md;
+    box-shadow: 0 4px 20px rgba(100, 110, 140, 0.08);
+  }
+  
+  .dark .navbar-fixed {
+    @apply bg-background/80 backdrop-blur-md shadow-md;
+  }
+
+  .slide-in {
+    @apply opacity-0 translate-y-5 transition-all duration-700 ease-out;
+  }
+
+  .slide-in.visible {
+    @apply opacity-100 translate-y-0;
+  }
+
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+
+  .animate-draw-line {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: drawLine 2.5s ease-out forwards;
+  }
+  
+  :root .blueprint-line {
+    stroke: #1e4b80; /* Azul oscuro más profesional en modo claro */
+  }
+  
+  .dark .blueprint-line {
+    stroke: #00e8fc; /* Azul cyan neón en modo oscuro */
+  }
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+  }
+
+  @keyframes drawLine {
+    0% { stroke-dashoffset: 1000; }
+    100% { stroke-dashoffset: 0; }
+  }
+  
+  @keyframes tick {
+    0% { transform: translateY(0); opacity: 0.7; }
+    50% { transform: translateY(-3px); opacity: 1; }
+    100% { transform: translateY(0); opacity: 0.7; }
+  }
+  
+  .neumorph-strong {
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.15),
+                -8px -8px 16px rgba(255, 255, 255, 0.08);
+  }
+  
+  .blueprint-grid {
+    background-image: 
+      linear-gradient(rgba(0, 232, 252, 0.1) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(0, 232, 252, 0.1) 1px, transparent 1px);
+    background-size: 20px 20px;
+  }
+  
+  :root .blueprint-grid {
+    background-image: 
+      linear-gradient(rgba(30, 75, 128, 0.1) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(30, 75, 128, 0.1) 1px, transparent 1px);
+    background-size: 20px 20px;
+  }
+}

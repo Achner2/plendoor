@@ -1,0 +1,255 @@
+{
+  "common": {
+    "getEarlyAccess": "Get Early Access",
+    "watchDemo": "Watch Demo",
+    "signUp": "Sign Up",
+    "reserve": "Reserve My Spot",
+    "processing": "Processing...",
+    "toggleTheme": "Toggle Light/Dark Mode"
+  },
+  "navbar": {
+    "features": "Features",
+    "demo": "Demo",
+    "useCases": "Use Cases",
+    "earlyAccess": "Early Access"
+  },
+  "hero": {
+    "comingSoon": "Coming Soon",
+    "title1": "Transform Spaces Into",
+    "title2": "Professional Blueprints",
+    "description": "Plendoor is revolutionizing architectural planning with AI-powered technology that turns any space into detailed, professional floor plans in minutes.",
+    "launchingIn": "Launching in",
+    "days": "DAYS",
+    "hours": "HOURS",
+    "minutes": "MINUTES",
+    "seconds": "SECONDS",
+    "preciseMeasurements": "Precise Measurements",
+    "instantGeneration": "Instant Generation",
+    "smartDesign": "Smart Design",
+    "aiProcessing": "AI-powered space analysis in progress...",
+    "kitchen": "KITCHEN",
+    "livingRoom": "LIVING ROOM",
+    "bedroom": "BEDROOM",
+    "totalArea": "Total Area"
+  },
+  "revolution": {
+    "title1": "Revolutionizing",
+    "title2": "Spatial Design",
+    "description": "Traditional architectural planning is complex, expensive, and time-consuming. Plendoor changes everything.",
+    "stats": {
+      "time": "AVERAGE TIME",
+      "faster": "FASTER",
+      "accuracy": "ACCURACY",
+      "precision": "PRECISION"
+    },
+    "benefits": {
+      "costEffective": "Cost Effective",
+      "savingDescription": "Save up to 90% compared to traditional methods",
+      "lightningFast": "Lightning Fast",
+      "fastDescription": "Generate complete plans in minutes, not days",
+      "aiPowered": "AI Powered",
+      "aiDescription": "Advanced algorithms that learn and improve"
+    },
+    "steps": {
+      "title": "From Complex Process to",
+      "titleHighlight": "Single-Click Solution",
+      "oldWay": "The Old Way: Complex & Expensive",
+      "oldDescription": "Hiring architects, waiting weeks for measurements, revisions, and expensive software. Most people simply can't afford professional floor plans.",
+      "newWay": "The Plendoor Way: Simple & Accessible",
+      "newDescription": "Just scan your space with your phone, and Plendoor's AI instantly generates accurate floor plans with professional detail and formatting.",
+      "result": "The Result: Democratized Design",
+      "resultDescription": "Professional-quality architectural plans accessible to everyone — homeowners, small businesses, interior designers, and real estate agents.",
+      "discover": "Discover How It Works"
+    }
+  },
+  "features": {
+    "title1": "Core",
+    "title2": "Features",
+    "description": "Plendoor combines cutting-edge technology with intuitive design to transform the way you create architectural plans.",
+    "scan": {
+      "title": "AI Room Scanning",
+      "description": "Quickly capture room dimensions with your smartphone camera",
+      "detailedTitle": "Smart Room Detection",
+      "detailedDescription": "Simply walk around your space with your phone camera. Our AI instantly identifies walls, doors, windows, and even detects room types based on fixtures and furniture.",
+      "benefits": [
+        "Accurate to within 0.5 inches/1cm",
+        "Works in all lighting conditions",
+        "No special equipment needed"
+      ]
+    },
+    "generate": {
+      "title": "Instant Blueprint Generation",
+      "description": "Convert scans to professional floor plans in seconds",
+      "detailedTitle": "Professional-Grade Output",
+      "detailedDescription": "Our AI instantly converts your scan data into architectural-grade floor plans with standard notation, accurate measurements, and proper scaling.",
+      "benefits": [
+        "Automatic room labeling",
+        "Standard architectural symbols",
+        "Multiple blueprint styles"
+      ]
+    },
+    "customize": {
+      "title": "Custom Editing Tools",
+      "description": "Fine-tune and customize every aspect of your plans",
+      "detailedTitle": "Intuitive Editing Interface",
+      "detailedDescription": "Adjust walls, add furniture, change room types, and customize every detail with our easy-to-use editing tools that require no technical expertise.",
+      "benefits": [
+        "Drag-and-drop furniture library",
+        "One-click room type changes",
+        "Automatic dimension adjustments"
+      ]
+    },
+    "export": {
+      "title": "Multi-Format Export",
+      "description": "Export to CAD, PDF, 3D models and more",
+      "detailedTitle": "Universal Compatibility",
+      "detailedDescription": "Export your completed floor plans in multiple formats for use with any professional software or direct printing at architectural scale.",
+      "benefits": [
+        "CAD-ready exports (DWG, DXF)",
+        "High-resolution PDF outputs",
+        "3D model conversion"
+      ]
+    },
+    "collaborate": {
+      "title": "Collaboration Suite",
+      "description": "Share and collaborate in real-time with team members",
+      "detailedTitle": "Team Workspace",
+      "detailedDescription": "Share your plans with clients, contractors, or design partners. Everyone can view, comment, and suggest changes in real-time from any device.",
+      "benefits": [
+        "Real-time collaboration",
+        "Version history tracking",
+        "Integrated messaging system"
+      ]
+    },
+    "status": {
+      "scan": "Room analysis complete - 98% accuracy",
+      "generate": "Blueprint generation complete",
+      "customize": "Editing mode active",
+      "export": "Preparing export formats",
+      "collaborate": "Connected with 3 team members"
+    }
+  },
+  "demo": {
+    "title1": "See",
+    "title2": "Plendoor",
+    "title3": "in Action",
+    "description": "Transform any space into a professional blueprint in three simple steps.",
+    "step1": {
+      "title": "Scan Your Space",
+      "description": "Using your smartphone camera, simply walk around the room. Our AR technology tracks walls, openings, and fixtures in real-time.",
+      "worksOnSmartphone": "Works on any smartphone",
+      "takesUnder": "Takes under 2 minutes"
+    },
+    "processing": "AI processes spatial data...",
+    "step2": {
+      "title": "Generate Blueprint",
+      "description": "Plendoor's AI instantly converts your scan into a precise architectural floor plan with proper dimensions, notations, and details.",
+      "instantGeneration": "Instant generation",
+      "professionalStandard": "Professional standard compliant"
+    },
+    "finalizing": "Finalizing details...",
+    "step3": {
+      "title": "Export & Share",
+      "description": "Customize as needed, then export your plans in multiple formats including PDF, CAD, or even 3D models for use in any project.",
+      "multipleFormats": "Multiple formats",
+      "oneClickSharing": "One-click sharing"
+    }
+  },
+  "useCases": {
+    "title1": "Perfect for",
+    "title2": "Every Space",
+    "description": "Plendoor adapts to any environment and serves a wide range of users with specialized needs.",
+    "categories": {
+      "residential": "RESIDENTIAL",
+      "design": "DESIGN",
+      "commercial": "COMMERCIAL",
+      "business": "BUSINESS",
+      "retail": "RETAIL",
+      "events": "EVENTS"
+    },
+    "cases": {
+      "homeRenovation": {
+        "title": "Home Renovation",
+        "description": "Create detailed plans of your existing space to share with contractors, designers, and architects. Save thousands on preliminary design work."
+      },
+      "interiorDesign": {
+        "title": "Interior Design",
+        "description": "Instantly generate accurate floor plans that serve as the foundation for interior design projects. Seamlessly export to design software."
+      },
+      "realEstate": {
+        "title": "Real Estate",
+        "description": "Enhance property listings with professional floor plans in minutes. Improve buyer interest and provide complete property information."
+      },
+      "officePlanning": {
+        "title": "Office Space Planning",
+        "description": "Quickly document existing office layouts and plan optimized configurations for collaboration, productivity, and social distancing."
+      },
+      "retailOptimization": {
+        "title": "Retail Space Optimization",
+        "description": "Design optimal store layouts to maximize customer flow, product visibility, and sales area. Test different configurations digitally."
+      },
+      "eventPlanning": {
+        "title": "Event Planning",
+        "description": "Create precise venue layouts for weddings, conferences, and events. Plan seating arrangements, stages, and service areas with accuracy."
+      }
+    }
+  },
+  "earlyAccess": {
+    "title1": "Join the",
+    "title2": "Revolution",
+    "description": "Be among the first to experience Plendoor. Sign up for early access and receive:",
+    "benefits": {
+      "benefit1": "Priority access to the beta release",
+      "benefit2": "50% discount on premium features for life",
+      "benefit3": "Direct access to our product team",
+      "benefit4": "Exclusive tutorials and early documentation",
+      "limitedSpots": "Limited spots available for early access program"
+    },
+    "form": {
+      "successTitle": "Thank you!",
+      "successMessage": "Your early access registration has been received. We'll notify you when we're ready to welcome you.",
+      "errorTitle": "Registration failed",
+      "errorMessage": "Please try again later",
+      "fullName": "Full Name",
+      "namePlaceholder": "Your name",
+      "email": "Email Address",
+      "emailPlaceholder": "your@email.com",
+      "profession": "Profession",
+      "professionSelect": "Select your profession",
+      "homeowner": "Homeowner",
+      "architect": "Architect",
+      "interiorDesigner": "Interior Designer",
+      "realEstate": "Real Estate Professional",
+      "contractor": "Contractor",
+      "other": "Other",
+      "terms": "I agree to receive updates about Plendoor and accept the",
+      "termsOfService": "Terms of Service",
+      "and": "and",
+      "privacyPolicy": "Privacy Policy",
+      "secureInfo": "Your information is secure and will never be shared"
+    },
+    "validation": {
+      "nameRequired": "Name is required",
+      "emailRequired": "Email is required",
+      "emailInvalid": "Invalid email address",
+      "professionRequired": "Please select your profession",
+      "termsRequired": "You must accept the terms"
+    }
+  },
+  "footer": {
+    "description": "Revolutionizing architectural floor plans with AI technology that makes professional blueprints accessible to everyone.",
+    "links": "Links",
+    "contact": "Contact",
+    "location": "San Francisco, CA",
+    "supportCenter": "Support Center",
+    "copyright": "Plendoor, Inc. All rights reserved.",
+    "allRightsReserved": "All rights reserved.",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "cookies": "Cookies"
+  },
+  "languageSwitcher": {
+    "en": "English",
+    "es": "Español"
+  }
+}

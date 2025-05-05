@@ -1,0 +1,97 @@
+Diseña una web explicativa avanzada para Plendoor utilizando Angular 18, enfocada en presentar nuestra próxima aplicación revolucionaria de generación de planos arquitectónicos. Esta web debe funcionar como una landing page anticipatoria que genere expectativa e interés antes del lanzamiento oficial.
+
+CONCEPTO FUNDAMENTAL:
+Esta NO es la aplicación en sí, sino una web explicativa y promocional que presenta Plendoor al público. Su objetivo es comunicar el valor y las capacidades de nuestra aplicación que estará disponible próximamente, captar leads interesados y construir anticipación para el lanzamiento.
+
+ESPECIFICACIONES TÉCNICAS:
+- Desarrollar completamente en Angular 18 aprovechando sus capacidades avanzadas
+- Implementar Signals para manejo de estado reactivo
+- Utilizar Standalone Components para una arquitectura modular
+- Implementar Server-Side Rendering (SSR) para optimización SEO
+- Asegurar optimización completa para dispositivos móviles con diseño responsive
+
+ESTRUCTURA Y DISEÑO:
+1. Header & Hero Section:
+   - Navbar flotante con efecto de transparencia a scroll
+   - Logo animado de Plendoor que evoluciona con el scroll
+   - Headline impactante con tipografía dinámica
+   - Animación principal mostrando la transformación de un espacio real a un plano profesional
+   - Contador regresivo para el lanzamiento de la aplicación
+
+2. Sección "Revolucionando el diseño espacial":
+   - Parallax scrolling con elementos 3D que representan planos arquitectónicos
+   - Explicación visual del problema (complejidad actual del diseño de planos) y la solución (Plendoor)
+   - Estadísticas animadas sobre tiempo ahorrado y facilidad de uso
+
+3. Sección "Características principales":
+   - Carrusel interactivo en 3D con las funcionalidades clave
+   - Cada característica debe revelarse con una animación de "blueprint" que se despliega
+   - Elementos interactivos que el usuario puede manipular para entender mejor la funcionalidad
+   - Microinteracciones en botones y elementos hover
+
+4. Demostración Visual:
+   - Video demo animado (motion graphics) mostrando el flujo de trabajo desde medición hasta plano finalizado
+   - Timeline interactiva que muestra el proceso paso a paso
+   - Comparativa visual antes/después con slider interactivo
+
+5. Sección "Casos de uso":
+   - Tarjetas con efecto glassmorphism que se expanden al hacer click
+   - Ilustraciones isométricas mostrando diferentes escenarios (hogar, oficina, local comercial)
+   - Testimonios anticipados de usuarios beta con avatares animados
+
+6. Sección "Próximo lanzamiento":
+   - Formulario de registro para acceso anticipado/beta con validación en tiempo real
+   - Animación de "onboarding" que simula el primer uso
+   - Opción para compartir en redes sociales con preview personalizado
+
+7. Footer:
+   - Links a redes sociales con iconos animados
+   - Formulario de contacto con efectos de feedback visual inmediato
+   - Mapa interactivo de la empresa con efecto 3D sutíl
+
+ANIMACIONES Y ELEMENTOS INTERACTIVOS:
+- Implementar GSAP para animaciones fluidas con alto rendimiento
+- Utilizar Three.js para elementos 3D interactivos, específicamente en la visualización de planos
+- Animaciones basadas en scroll con efectos de revelación progresiva
+- Transitions entre secciones con efectos de morphing y page transitions
+- Microinteracciones en todos los elementos clickables
+- Partículas animadas sutiles en el fondo que reaccionan al movimiento del cursor
+- Efecto de "blueprint" como tema visual recurrente: líneas que se dibujan, planos que se despliegan
+- Cursor personalizado que cambia según el contexto y elemento sobre el que se encuentra
+
+CARACTERÍSTICAS TÉCNICAS AVANZADAS:
+- Implementar modo oscuro/claro con transición suave
+- Añadir pequeña demostración interactiva donde los usuarios puedan "dibujar" un espacio simple
+- Integrar WebGL para renderizado avanzado de ejemplos de planos
+- Optimización de performance con lazy loading y code splitting
+- Animaciones optimizadas para no afectar el rendimiento (utilizando will-change y requestAnimationFrame)
+
+PALETA DE COLORES Y ESTÉTICA:
+- Base: Púrpura profundo (#8337cf) como color principal
+- Acentos: Degradados de púrpura claro a azul (#bb91d1 → #3a7bd5)
+- Contrastes: Negro espacial para fondos (#19171b) y blanco glacial para texto (#f3f6f8)
+- Estética "Neumorfismo 2.0" combinada con glassmorphism para elementos interactivos
+- Líneas finas de tipo "blueprint" en color cyan (#00e8fc) como elemento decorativo recurrente
+- Sombras sutiles con desenfoque gaussiano para elementos elevados
+
+TIPOGRAFÍA:
+- Títulos: Fuente geométrica sans-serif que evoque precisión y modernidad
+- Texto: Fuente humanista de alta legibilidad optimizada para pantalla
+- Implementar variable fonts para animaciones tipográficas suaves
+- Jerarquía tipográfica clara con contraste de tamaños y pesos
+
+COPY Y MENSAJE:
+- Enfatizar que Plendoor está "Próximamente" o "Coming Soon"
+- Comunicar claramente que es una herramienta revolucionaria para generar planos arquitectónicos
+- Destacar la democratización del diseño espacial: "Planos profesionales al alcance de todos"
+- Utilizar call-to-actions para captar emails de interesados en el lanzamiento
+- Lenguaje claro, directo y emocionante que genere anticipación
+
+RENDIMIENTO Y ACCESIBILIDAD:
+- Score perfecto en Lighthouse (Performance, Accesibilidad, Mejores Prácticas, SEO)
+- Animaciones respetuosas con prefers-reduced-motion
+- Compatibilidad con lectores de pantalla
+- Tiempo de carga inicial optimizado (<2s en conexiones estándar)
+- Estrategia de caching agresiva para recursos estáticos
+
+Esta web debe causar una impresión inmediata e impactante, comunicando innovación y facilidad de uso a través de un diseño excepcionalmente pulido y animaciones fluidas que realmente destaquen en el mercado actual. El objetivo es que los visitantes queden impresionados por la web explicativa y, por extensión, anticipen con entusiasmo el lanzamiento de la aplicación Plendoor.

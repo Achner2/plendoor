@@ -1,0 +1,255 @@
+{
+  "common": {
+    "getEarlyAccess": "Acceso Anticipado",
+    "watchDemo": "Ver Demo",
+    "signUp": "Registrarse",
+    "reserve": "Reservar Mi Plaza",
+    "processing": "Procesando...",
+    "toggleTheme": "Cambiar Modo Claro/Oscuro"
+  },
+  "navbar": {
+    "features": "Características",
+    "demo": "Demo",
+    "useCases": "Casos de Uso",
+    "earlyAccess": "Acceso Anticipado"
+  },
+  "hero": {
+    "comingSoon": "Próximamente",
+    "title1": "Transforma Espacios en",
+    "title2": "Planos Profesionales",
+    "description": "Plendoor está revolucionando la planificación arquitectónica con tecnología impulsada por IA que convierte cualquier espacio en planos detallados y profesionales en minutos.",
+    "launchingIn": "Lanzamiento en",
+    "days": "DÍAS",
+    "hours": "HORAS",
+    "minutes": "MINUTOS",
+    "seconds": "SEGUNDOS",
+    "preciseMeasurements": "Mediciones Precisas",
+    "instantGeneration": "Generación Instantánea",
+    "smartDesign": "Diseño Inteligente",
+    "aiProcessing": "Análisis espacial con IA en progreso...",
+    "kitchen": "COCINA",
+    "livingRoom": "SALA DE ESTAR",
+    "bedroom": "DORMITORIO",
+    "totalArea": "Área Total"
+  },
+  "revolution": {
+    "title1": "Revolucionando",
+    "title2": "el Diseño Espacial",
+    "description": "La planificación arquitectónica tradicional es compleja, costosa y requiere mucho tiempo. Plendoor cambia todo eso.",
+    "stats": {
+      "time": "TIEMPO PROMEDIO",
+      "faster": "MÁS RÁPIDO",
+      "accuracy": "PRECISIÓN",
+      "precision": "DE EXACTITUD"
+    },
+    "benefits": {
+      "costEffective": "Económico",
+      "savingDescription": "Ahorra hasta un 90% comparado con métodos tradicionales",
+      "lightningFast": "Ultrarrápido",
+      "fastDescription": "Genera planos completos en minutos, no en días",
+      "aiPowered": "Impulsado por IA",
+      "aiDescription": "Algoritmos avanzados que aprenden y mejoran"
+    },
+    "steps": {
+      "title": "De un Proceso Complejo a una",
+      "titleHighlight": "Solución con Un Clic",
+      "oldWay": "El Método Antiguo: Complejo y Costoso",
+      "oldDescription": "Contratar arquitectos, esperar semanas para mediciones, revisiones y software costoso. La mayoría de las personas simplemente no pueden permitirse planos profesionales.",
+      "newWay": "El Método Plendoor: Simple y Accesible",
+      "newDescription": "Simplemente escanea tu espacio con tu teléfono, y la IA de Plendoor genera instantáneamente planos arquitectónicos precisos con detalles y formato profesional.",
+      "result": "El Resultado: Diseño Democratizado",
+      "resultDescription": "Planos arquitectónicos de calidad profesional accesibles para todos: propietarios, pequeñas empresas, diseñadores de interiores y agentes inmobiliarios.",
+      "discover": "Descubre Cómo Funciona"
+    }
+  },
+  "features": {
+    "title1": "Características",
+    "title2": "Principales",
+    "description": "Plendoor combina tecnología de vanguardia con un diseño intuitivo para transformar la forma en que creas planos arquitectónicos.",
+    "scan": {
+      "title": "Escaneo de Habitaciones con IA",
+      "description": "Captura rápidamente las dimensiones de la habitación con la cámara de tu smartphone",
+      "detailedTitle": "Detección Inteligente de Espacios",
+      "detailedDescription": "Simplemente camina por tu espacio con la cámara de tu teléfono. Nuestra IA identifica instantáneamente paredes, puertas, ventanas e incluso detecta tipos de habitaciones según accesorios y muebles.",
+      "benefits": [
+        "Precisión de hasta 1 cm (0,5 pulgadas)",
+        "Funciona en todas las condiciones de iluminación",
+        "No se necesita equipo especial"
+      ]
+    },
+    "generate": {
+      "title": "Generación Instantánea de Planos",
+      "description": "Convierte escaneos en planos profesionales en segundos",
+      "detailedTitle": "Resultado de Calidad Profesional",
+      "detailedDescription": "Nuestra IA convierte instantáneamente tus datos de escaneo en planos arquitectónicos con notación estándar, medidas precisas y escala adecuada.",
+      "benefits": [
+        "Etiquetado automático de habitaciones",
+        "Símbolos arquitectónicos estándar",
+        "Múltiples estilos de planos"
+      ]
+    },
+    "customize": {
+      "title": "Herramientas de Edición Personalizadas",
+      "description": "Ajusta y personaliza cada aspecto de tus planos",
+      "detailedTitle": "Interfaz de Edición Intuitiva",
+      "detailedDescription": "Ajusta paredes, añade muebles, cambia tipos de habitaciones y personaliza cada detalle con nuestras herramientas de edición fáciles de usar que no requieren experiencia técnica.",
+      "benefits": [
+        "Biblioteca de muebles con arrastrar y soltar",
+        "Cambios de tipo de habitación con un clic",
+        "Ajustes automáticos de dimensiones"
+      ]
+    },
+    "export": {
+      "title": "Exportación Multi-Formato",
+      "description": "Exporta a CAD, PDF, modelos 3D y más",
+      "detailedTitle": "Compatibilidad Universal",
+      "detailedDescription": "Exporta tus planos completos en múltiples formatos para usar con cualquier software profesional o impresión directa a escala arquitectónica.",
+      "benefits": [
+        "Exportaciones listas para CAD (DWG, DXF)",
+        "Salidas PDF de alta resolución",
+        "Conversión a modelos 3D"
+      ]
+    },
+    "collaborate": {
+      "title": "Suite de Colaboración",
+      "description": "Comparte y colabora en tiempo real con miembros del equipo",
+      "detailedTitle": "Espacio de Trabajo en Equipo",
+      "detailedDescription": "Comparte tus planos con clientes, contratistas o socios de diseño. Todos pueden ver, comentar y sugerir cambios en tiempo real desde cualquier dispositivo.",
+      "benefits": [
+        "Colaboración en tiempo real",
+        "Seguimiento de historial de versiones",
+        "Sistema de mensajería integrado"
+      ]
+    },
+    "status": {
+      "scan": "Análisis de la habitación completo - 98% de precisión",
+      "generate": "Generación de plano completa",
+      "customize": "Modo de edición activo",
+      "export": "Preparando formatos de exportación",
+      "collaborate": "Conectado con 3 miembros del equipo"
+    }
+  },
+  "demo": {
+    "title1": "Mira",
+    "title2": "Plendoor",
+    "title3": "en Acción",
+    "description": "Transforma cualquier espacio en un plano profesional en tres sencillos pasos.",
+    "step1": {
+      "title": "Escanea Tu Espacio",
+      "description": "Usa la cámara de tu smartphone y simplemente camina por la habitación. Nuestra tecnología de RA rastrea paredes, aberturas y accesorios en tiempo real.",
+      "worksOnSmartphone": "Funciona en cualquier smartphone",
+      "takesUnder": "Toma menos de 2 minutos"
+    },
+    "processing": "La IA procesa datos espaciales...",
+    "step2": {
+      "title": "Genera el Plano",
+      "description": "La IA de Plendoor convierte instantáneamente tu escaneo en un plano arquitectónico preciso con dimensiones adecuadas, notaciones y detalles.",
+      "instantGeneration": "Generación instantánea",
+      "professionalStandard": "Cumple con estándares profesionales"
+    },
+    "finalizing": "Finalizando detalles...",
+    "step3": {
+      "title": "Exporta y Comparte",
+      "description": "Personaliza según sea necesario, luego exporta tus planos en múltiples formatos incluyendo PDF, CAD, o incluso modelos 3D para usar en cualquier proyecto.",
+      "multipleFormats": "Múltiples formatos",
+      "oneClickSharing": "Compartir con un clic"
+    }
+  },
+  "useCases": {
+    "title1": "Perfecto para",
+    "title2": "Cualquier Espacio",
+    "description": "Plendoor se adapta a cualquier entorno y atiende a una amplia gama de usuarios con necesidades especializadas.",
+    "categories": {
+      "residential": "RESIDENCIAL",
+      "design": "DISEÑO",
+      "commercial": "COMERCIAL",
+      "business": "NEGOCIOS",
+      "retail": "RETAIL",
+      "events": "EVENTOS"
+    },
+    "cases": {
+      "homeRenovation": {
+        "title": "Renovación del Hogar",
+        "description": "Crea planos detallados de tu espacio existente para compartir con contratistas, diseñadores y arquitectos. Ahorra miles en trabajo de diseño preliminar."
+      },
+      "interiorDesign": {
+        "title": "Diseño de Interiores",
+        "description": "Genera instantáneamente planos precisos que sirven como base para proyectos de diseño de interiores. Exporta sin problemas a software de diseño."
+      },
+      "realEstate": {
+        "title": "Bienes Raíces",
+        "description": "Mejora los listados de propiedades con planos profesionales en minutos. Aumenta el interés de los compradores y proporciona información completa de la propiedad."
+      },
+      "officePlanning": {
+        "title": "Planificación de Oficinas",
+        "description": "Documenta rápidamente diseños de oficinas existentes y planifica configuraciones optimizadas para colaboración, productividad y distanciamiento social."
+      },
+      "retailOptimization": {
+        "title": "Optimización de Espacios Comerciales",
+        "description": "Diseña distribuciones óptimas de tiendas para maximizar el flujo de clientes, la visibilidad del producto y el área de ventas. Prueba diferentes configuraciones digitalmente."
+      },
+      "eventPlanning": {
+        "title": "Planificación de Eventos",
+        "description": "Crea diseños precisos de locales para bodas, conferencias y eventos. Planifica la disposición de asientos, escenarios y áreas de servicio con precisión."
+      }
+    }
+  },
+  "earlyAccess": {
+    "title1": "Únete a la",
+    "title2": "Revolución",
+    "description": "Sé de los primeros en experimentar Plendoor. Regístrate para acceso anticipado y recibe:",
+    "benefits": {
+      "benefit1": "Acceso prioritario a la versión beta",
+      "benefit2": "50% de descuento en funciones premium de por vida",
+      "benefit3": "Acceso directo a nuestro equipo de producto",
+      "benefit4": "Tutoriales exclusivos y documentación anticipada",
+      "limitedSpots": "Plazas limitadas disponibles para el programa de acceso anticipado"
+    },
+    "form": {
+      "successTitle": "¡Gracias!",
+      "successMessage": "Tu registro para acceso anticipado ha sido recibido. Te notificaremos cuando estemos listos para darte la bienvenida.",
+      "errorTitle": "Error de registro",
+      "errorMessage": "Por favor, inténtalo más tarde",
+      "fullName": "Nombre Completo",
+      "namePlaceholder": "Tu nombre",
+      "email": "Correo Electrónico",
+      "emailPlaceholder": "tu@email.com",
+      "profession": "Profesión",
+      "professionSelect": "Selecciona tu profesión",
+      "homeowner": "Propietario",
+      "architect": "Arquitecto",
+      "interiorDesigner": "Diseñador de Interiores",
+      "realEstate": "Profesional Inmobiliario",
+      "contractor": "Contratista",
+      "other": "Otro",
+      "terms": "Acepto recibir actualizaciones sobre Plendoor y acepto los",
+      "termsOfService": "Términos de Servicio",
+      "and": "y",
+      "privacyPolicy": "Política de Privacidad",
+      "secureInfo": "Tu información está segura y nunca será compartida"
+    },
+    "validation": {
+      "nameRequired": "El nombre es obligatorio",
+      "emailRequired": "El email es obligatorio",
+      "emailInvalid": "Dirección de email inválida",
+      "professionRequired": "Por favor selecciona tu profesión",
+      "termsRequired": "Debes aceptar los términos"
+    }
+  },
+  "footer": {
+    "description": "Revolucionando los planos arquitectónicos con tecnología de IA que hace que los planos profesionales sean accesibles para todos.",
+    "links": "Enlaces",
+    "contact": "Contacto",
+    "location": "San Francisco, CA",
+    "supportCenter": "Centro de Soporte",
+    "copyright": "Plendoor, Inc. Todos los derechos reservados.",
+    "allRightsReserved": "Todos los derechos reservados.",
+    "privacyPolicy": "Política de Privacidad",
+    "termsOfService": "Términos de Servicio",
+    "cookies": "Cookies"
+  },
+  "languageSwitcher": {
+    "en": "English",
+    "es": "Español"
+  }
+}
